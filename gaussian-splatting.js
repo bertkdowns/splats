@@ -743,3 +743,4 @@ AFRAME.registerComponent("gaussian_splatting", {
 		console.timeEnd("build buffer");
 		return buffer;
 	}
+});
