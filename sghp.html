@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+    <script src="gaussian-splatting.js"></script>
+  </head>
+  <body>
+    <a-scene renderer="antialias: false" stats>
+      <a-camera near="0.01" far="10000" ></a-camera>
+      
+
+      <a-entity gltf-model="url(assets/sghp.glb)" position="0 0 -1"></a-entity>
+    </a-scene>
+  </body>
+</html>
